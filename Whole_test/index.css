@@ -1,0 +1,49 @@
+index.css
+
+.searchbar {  
+  padding: 1em; 
+  line-height: 1;
+  
+  form {
+    position: relative; 
+   
+    input {
+      display: block;      
+    }
+    
+    input[type="searchbar"] {
+      width: 100%;
+      padding: 1em;
+      padding-right: 8.0em;
+      position: relative;
+      top: 0;
+      height: inherit;
+    }
+    
+    .search-btn-group {      
+      position: absolute;
+      right: 0.75em;
+      top: 0.5em;
+      bottom: 0.5em;
+      z-index: 1;
+      width: 7.0em;
+      padding: 0;
+      cursor: pointer;
+      
+      .dropdown-toggle {    
+        height: 34px;
+      }
+      
+      .dropdown-menu {
+        left: auto;  
+        right: 0;
+      } 
+      
+      .fa-search {
+        margin-left: 4px;        
+        height: 34px;
+      }
+    }
+    
+  }
+}
